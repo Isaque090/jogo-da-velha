@@ -1,0 +1,110 @@
+
+         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            justify-content: center;
+            background-color: #5b5b5bb8;
+            flex-direction: column;
+        }
+
+        .botao {
+
+            height: 100px;
+            margin-left: 5px;
+            width: 100px;
+            background: #2b2b2b;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.9;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+            background: #3a3a3a;
+            transform: scale(1.05);
+
+        }
+
+
+        .botao:active {
+            cursor: default;
+        }
+
+     
+
+
+        .card {
+
+
+            background-color: #48484882;
+            padding: 30px;
+            width: 350px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            border: 2px solid #ffffffb8;
+
+
+        }
+
+        .jogada {
+            color: aquamarine;
+            font-size: 60px;
+            font-weight: bold;
+
+
+        }
+
+        .placar {
+            background-color: #34343460;
+            height: auto;
+            width: 200px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .placa {
+            height: 60px;
+            margin-left: 5px;
+            width: 60px;
+            background: #2b2b2b;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.9;
+
+        }
+
+        .placar span {
+            color: aquamarine;
+            font-size: 40px;
+            font-weight: bold;
+
+            margin-bottom: 8px;
+        }
+
+        .placa p {
+            color: aquamarine;
+            font-size: 40px;
+            margin-top: 4px;
+            font-weight: bold;
+        }
+
+        .placa-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10px;
+        }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="placar">
+        <div class="row">
+            <div class="placa-card">
+                <span>O</span>
+                <div class="placa">
+                    <p id="placar-o">0</p>
+                </div>
+            </div>
+            <div class="placa-card">
+                <span>X</span>
+                <div class="placa">
+
+
+                    <p id="placar-x">0</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="card shadow-lg">
+        <div class="row">
+            <div class="botao" onclick="escolhe(1)">
+                <p class="jogada" id="1"></p>
+            </div>
+            <div class="botao" onclick="escolhe(2)">
+                <p class="jogada" id="2"></p>
+            </div>
+            <div class="botao" onclick="escolhe(3)">
+                <p class="jogada" id="3"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="botao" onclick="escolhe(4)">
+                <p class="jogada" id="4"></p>
+            </div>
+            <div class="botao" onclick="escolhe(5)">
+                <p class="jogada" id="5"></p>
+            </div>
+            <div class="botao" onclick="escolhe(6)">
+                <p class="jogada" id="6"></p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="botao" onclick="escolhe(7)">
+                <p class="jogada" id="7"></p>
+            </div>
+            <div class="botao" onclick="escolhe(8)">
+                <p class="jogada" id="8"></p>
+            </div>
+            <div class="botao" onclick="escolhe(9)">
+                <p class="jogada" id="9"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
