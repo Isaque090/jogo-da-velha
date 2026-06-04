@@ -35,7 +35,7 @@ Projeto criado para praticar lógica de programação, manipulação do DOM, arr
 
 1. Clone o repositório:
 
-git clone https://github.com/SEU-USUARIO/jogo-da-velha-js.git
+git clone https://github.com/Isaque090/jogo-da-velha.git
 
 2. Abra o arquivo `index.html` no navegador.
 
